@@ -1,0 +1,13 @@
+﻿  linkedintlist.cpp
+D:\Courses\c++\ConsoleApplication1\linkedintlist.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Courses\c++\ConsoleApplication1\node.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  main.cpp
+D:\Courses\c++\ConsoleApplication1\linkedintlist.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Courses\c++\ConsoleApplication1\node.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  node.cpp
+D:\Courses\c++\ConsoleApplication1\node.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Courses\c++\ConsoleApplication1\linkedintlist.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Courses\c++\ConsoleApplication1\linkedintlist.h(11,6): error C2143: syntax error: missing ';' before '*'
+D:\Courses\c++\ConsoleApplication1\linkedintlist.h(11,6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Courses\c++\ConsoleApplication1\linkedintlist.h(11,23): error C2238: unexpected token(s) preceding ';'
+  Generating Code...

@@ -1,0 +1,3 @@
+D:/Courses/c++/ConsoleApplication1/cmake-build-debug/CMakeFiles/ConsoleApplication1.dir
+D:/Courses/c++/ConsoleApplication1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Courses/c++/ConsoleApplication1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
