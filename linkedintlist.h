@@ -14,7 +14,9 @@ public:
     ~LinkedIntList();
 
 	void printElements();
-    void addElement(int element);
+    void push_back(int element);
+    void push_front(int element);
+    bool isEmpty() const;
 };
 
 #endif

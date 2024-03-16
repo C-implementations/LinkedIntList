@@ -35,7 +35,11 @@ void LinkedIntList::printElements() {
     } while (elementPointer != nullptr);
 }
 
-void LinkedIntList::addElement(int element) {
+bool LinkedIntList::isEmpty() const {
+    return _actualSize == 0;
+}
+
+void LinkedIntList::push_back(int element) {
     if (LinkedIntList::getActualSize() == 0) {
         _data = new Node();
         _data->setValue(element);
@@ -55,5 +59,25 @@ void LinkedIntList::addElement(int element) {
     newNode->setPrev(elementPointer);
     newNode->setNext(nullptr);
     elementPointer->setNext(newNode);
+    _actualSize++;
+}
+
+void LinkedIntList::push_front(int element) {
+    if (LinkedIntList::getActualSize() == 0) {
+        _data = new Node();
+        _data->setNext(nullptr);
+        _data->setPrev(nullptr);
+        _data->setValue(element);
+        _actualSize++;
+        return;
+    }
+
+    Node* elementPointer = _data;
+    Node* newNode = new Node();
+    newNode->setPrev(nullptr);
+    newNode->setNext(elementPointer);
+    newNode->setValue(element);
+    elementPointer->setPrev(newNode);
+    _data = newNode;
     _actualSize++;
 }
